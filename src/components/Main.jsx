@@ -1,9 +1,11 @@
 
 
-export default function Main () {
+export default function Main (props) {
+    const {name, total, isAwesome, fruit} = props;
     return (
         <main>
-        <h1>Main</h1>
+        <h1>Hello {name}</h1>
+
         </main>
     )
 }
