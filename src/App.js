@@ -8,11 +8,8 @@ function App() {
   const [name, setName] = useState("Hugo");
   return (
     <>
-      <Menubar />
+      <Menubar name={name} setName={setName}/>
       <Main name={name} />
-      <Main name="Mateo" />
-      <Main name="Pam" />
-      <Main name="Derek" />
       <Footer />
     </>
   );
